@@ -6,7 +6,7 @@ const schema=mongoose.Schema({
     permission:{type:String},
     created_by:{
         type:mongoose.SchemaTypes.ObjectId,
-        required:true
+        required:false
     }
 
 },
