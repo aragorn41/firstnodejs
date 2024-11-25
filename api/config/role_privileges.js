@@ -91,7 +91,15 @@ privileges:
             name:"Category Delete",
             group:"CATEGORIES",
             description:"Category-Delete Permissions"
-        },
+           },
+           {
+            key:"category_export",
+            name:"Category Export",
+            group:"CATEGORIES",
+            description:"Category-Export Permissions"
+
+
+           },
         {
             key:"auditlog_view",
             name:"Auditlog View",
